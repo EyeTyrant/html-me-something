@@ -13,10 +13,9 @@ body {
 article {
   background-color: var(--blue);
 }
-header {
+header,
+footer {
   background-color: var(--coral);
-  width: 100%;
-  display: inline-block;
   text-align: center;
 }
 h1 {
@@ -55,12 +54,9 @@ section {
 #sec2 {
   background-color: var(--green);
 }
-footer {
-  background-color: var(--coral);
-}
+
 #copy {
   color: var(--darkblue);
   font-size: 1em;
   padding: 15px;
-  text-align: center;
 }
